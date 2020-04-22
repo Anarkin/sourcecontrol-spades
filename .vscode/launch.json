@@ -1,0 +1,22 @@
+// https://go.microsoft.com/fwlink/?linkid=830387
+// https://fettblog.eu/typescript-node-visual-studio-code/
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DEBUG",
+            "type": "node",
+            "request": "launch",
+            // "preLaunchTask": "typescript",
+            "program": "${workspaceFolder}/src/main.ts",
+            "cwd": "${workspaceFolder}",
+            "protocol": "inspector",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/bin/**/*.js"
+            ]
+        }
+    ]
+}

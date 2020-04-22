@@ -1,0 +1,24 @@
+{
+    "module": {
+        "name": "BasicContributorMetricsModule"
+    },
+    "dataSource": {
+        "pullRequestPagingSize": 100,
+        "pullRequestNoOfPages": 3,
+        "activityPagingSize": 500,
+        "repositories": [
+            {
+                "project": "",
+                "repo": ""
+            }
+        ]
+    },
+    "teams": [
+        {
+            "name": "",
+            "members": [
+                ""
+            ]
+        }
+    ]
+}
